@@ -1,0 +1,15 @@
+
+
+AuthName "UT Campus"
+AuthType Basic
+ErrorDocument 403 http://www.orie.utexas.edu
+order deny,allow
+deny from all
+allow from 128.83.
+allow from 146.6.
+allow from 128.62.
+allow from 129.116.
+allow from 172.29.
+allow from 172.16.
+allow from 198.213.192.0/18
+allow from 206.76.64.0/18
